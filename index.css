@@ -1,0 +1,40 @@
+.alle{
+    background-color: teal;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    border: solid black !important;
+    font-size: 45px;
+    background-color: slategray !important;
+    margin: auto;
+}
+
+.btn{
+    border: solid black ;
+    font-size: 16px;
+    background-color: slategray;
+    margin: auto;
+}
+
+.container{
+    width: 75vh;
+    height: 75vh;
+    border: solid black;
+    display: grid;
+    margin: 2rem;
+    background-color: white;
+}
+.box{
+    border: solid black 1px;
+}
+.control{
+    margin: auto;
+    border: solid black;
+    font-size:16px;
+    background-color: slategray;
+}

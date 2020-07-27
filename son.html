@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Etch-a-Sketch</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="alle" background="indir.jpeg">
+		<h1> --- Etch a Sketch --- </h1>
+		<div>
+			<button  class="btn" type="button" onclick="resetBoxes()">Reset</button>
+		</div>
+		 <div class="control">
+                	<label for="color">Color</label>
+                	<select name="color" id="color">
+                    		<option value="black" selected>Black</option>
+                    		<option value="random">Random</option>
+                    		<option value="gray">Gray</option>
+                    		<option value="white">White</option>
+                	</select>
+            	</div>	
+		<div class="container"></div>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>
